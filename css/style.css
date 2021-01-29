@@ -3,6 +3,57 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+img {
+    display: block;
+}
+
+.btn {
+    border: 3px solid #FEC63E;
+    padding: 10px 30px;
+    color: #FEC63E;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.btn:hover {
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+.btnPreto:hover {
+    color: #000000;
+    border-color: #000000;
+}
+
+.subtitulo {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: .1em;
+    color: #000000;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.subtitulo::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #000000;
+    margin: 15px auto;
+}
 
 /* Header */
 
@@ -12,6 +63,7 @@ body {
     padding: 15px 0px;
     position: fixed;
     background-color: #FEC63E;
+    z-index: 10;
 }
 
 .headerMenu {
@@ -41,3 +93,264 @@ body {
 }
 
 /* Introdução */
+
+.introducao {
+    width: 100%;
+    height: 380px;
+    margin-top: 91px;
+    background: url("../img/Portfolio/bg-intro.svg") no-repeat center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.introducao h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.quoteExterno {
+    max-width: 320px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    color: #ffffff;
+}
+
+.quoteExterno p {
+    font-style: italic;
+}
+
+.quoteExterno p::before, .quoteExterno p:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #ffffff;
+    margin: 15px auto;
+}
+
+.quoteExterno cite {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: .1em;
+}
+
+/* Produtos */
+
+.produtos {
+    padding: 60px 0px;
+}
+
+.produtosLista li {
+    background-color: #FEC63E;
+    text-align: center;
+}
+
+.produtosLista li h3 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    margin-top: 20px;
+}
+
+.produtosLista li h3::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #000000;
+    margin: 2px auto;
+}
+
+.produtosLista li p {
+    padding: 10px 20px 20px 20px;
+}
+
+.produtosLista li div img {
+    height: 140px;
+    padding: 15px;
+}
+
+.produtosIcone {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #000000;
+    padding: 20px;
+}
+
+.callToAction {
+    padding-top: 40px;
+    text-align: center;
+    clear: both;
+}
+
+.callToAction p {
+    margin-bottom: 20px;
+}
+
+/* Portfólio */
+
+.portfolio {
+    width: 100%;
+    padding: 40px;
+    background-color: #000000;
+}
+
+.portfolio .subtitulo {
+    color: #FEC63E;
+}
+.portfolio .subtitulo:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #FEC63E;
+    margin: 2px auto;
+}
+
+.portfolioLista li:last-child {
+    margin-top: 20px;
+}
+
+.portfolio .callToAction p {
+    color: #ffffff;
+}
+
+/* Qualidade */
+
+.qualidade {
+    padding: 60px 0px;
+}
+
+.qualidade::after {
+    content: "";
+    width: 634px;
+    height: 83px;
+    display: block;
+    background: url("../img/Icones/linhas.svg") no-repeat center;
+    position: absolute;
+    top: 216px;
+    right: 162px;
+}
+
+.qualidadeLista {
+    padding-top: 20px;
+}
+
+.qualidade img {
+    margin: 0 auto;
+}
+
+.qualidadeLista li {
+    text-align: center;
+    padding: 0 40px;
+}
+
+.qualidadeLista li h3 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    margin-top: 20px;
+}
+
+.qualidadeLista li h3::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #000000;
+    margin: 6px auto;
+    z-index: -1;
+}
+
+/* Quebra */
+
+.quebra {
+    width: 100%;
+    height: 220px;
+    background: url(../img/Portfolio/quebra.svg) no-repeat center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 40px;
+}       
+
+.quebra .quoteExterno {
+    max-width: 400px;
+}
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 20px 0px;
+}
+
+.footer h3 {
+    font-size: 18px;
+    line-height: 25px;
+    color: #FEC63E;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .1em;
+}
+
+.footer h3:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #FEC63E;
+    margin: 6px 0px 12px 0px;
+}
+
+.footerHistoria {
+    padding-right: 40px;
+}
+
+.footerContatos ul li{
+    font-size: 14px;
+    line-height: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.footerRedes ul li {
+    display: inline-block;
+    margin: 0px 5px;
+}
+
+.footerRedes ul li a {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #FEC63E;
+}
+
+.footerRedes ul li a:hover {
+    border-color: #ffffff;
+}
+
+.footer ul li a img {
+    width: 32px;
+    height: 32px;
+}
+
+.copy {
+    width: 100%;
+    height: 60px;
+    padding: 20px 0px;
+    background-color: #FEC63E;
+    color: #000000;
+}
