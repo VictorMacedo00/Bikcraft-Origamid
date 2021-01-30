@@ -1,0 +1,191 @@
+.introducaoProdutos {
+    background: url(../img/Portfolio/Produtos-1.svg) no-repeat center;
+    background-size: cover;
+}
+
+.produtoItem {
+    padding-top: 60px;
+    margin-bottom: 20px;
+}
+
+.separador {
+    margin-bottom: 20px;
+}
+
+.produtoIcone {
+    height: 280px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #000000;
+}
+
+.produtoItem h2 {
+    position: absolute;
+    top: 150px;
+    left: 240px;
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.produtoItem h2:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #ffffff;
+    margin: 15px auto;
+}
+
+.produtoItem h2:before {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #ffffff;
+    margin: 15px auto;
+}
+
+.produtoItem p {
+    padding: 40px 40px 0px 40px;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: bold;
+}
+
+.listaProduto {
+    height: 280px;
+    background-color: #000000;
+}
+
+.listaProduto ul li{
+    width: 229px;
+    height: 48px;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: bold;
+    letter-spacing: .1em;
+    float: left;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #FEC63E;
+    display: block;
+    padding: 15px 0px;
+}
+
+.listaProduto ul li:nth-child(even) {
+    margin-left: 2px;
+}
+
+.listaProduto ul li:nth-child(1), .listaProduto ul li:nth-child(2) {
+    margin-bottom: 2px;
+    margin-top: 42px;
+}
+
+/* Orçamento */
+
+.orcamento {
+    width: 100%;
+    margin-top: 60px;
+    padding: 40px 0px;
+    background-color: #000000;
+}
+
+.orcamento h2 {
+    color: #FEC63E;
+}
+
+.orcamento h2:after {
+    background-color: #FEC63E;
+}
+
+.form {
+    padding-right: 60px;
+}
+
+.form label {
+    display: block;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 4px;
+}
+
+.form input {
+    display: block;
+    width: 100%;
+    border: 4px solid #FEC63E;
+    background: none;
+    color: #ffffff;
+    padding: 7px 10px;
+    margin-bottom: 10px;
+    outline: none;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.form textarea {
+    display: block;
+    width: 100%;
+    height: 120px;
+    border: 4px solid #FEC63E;
+    background: none;
+    color: #ffffff;
+    padding: 7px 10px;
+    margin-bottom: 20px;
+    outline: none;
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.form button {
+    background: none;
+    padding: 7px 40px;
+}
+
+.orcamentoDados {
+    color: #ffffff;
+}
+
+.orcamentoDados h3 {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #FEC63E;
+}
+
+.orcamentoDados span {
+    display: block;
+    font-size: 18px;
+    line-height: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.dadosEmail {
+    margin-bottom: 40px;
+}
+
+.orcamentoDados ul {
+    padding-right: 60px;
+}
+
+.orcamentoDados ul li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    padding: 10px 15px;
+}
+
+.orcamentoDados ul li:nth-child(odd) {
+    background-color: #1d1d1d;
+}
+
+.orcamentoDados p {
+    margin: 8px 8px;
+}
