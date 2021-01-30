@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/sobre.css">
-    <link rel="stylesheet" href="css/portfolio.css">
-    <title>Bikcraft - Contatos</title>
+    <link rel="stylesheet" href="css/contatos.css">
+    <title>Bikcraft - Produtos</title>
 </head>
 <body>
 
@@ -23,47 +23,63 @@
                 <ul>
                     <li><a href="sobre.html">Sobre</a></li>
                     <li><a href="produtos.html">Produtos</a></li>
-                    <li><a href="portfolio.html" class="menuAtivo">Portfólio</a></li>
-                    <li><a href="contatos.html">Contatos</a></li>
+                    <li><a href="portfolio.html">Portfólio</a></li>
+                    <li><a href="contatos.html"  class="menuAtivo">Contatos</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <section class="introducaoInterna introducaoPortfolio">
+    <section class="introducaoInterna introducaoProdutos">
         <div class="container">
-            <h1>Contatos</h1>
-            <p>Tire suas dúvidas com a gente</p>
-        </div>
-    </section>
-    
-    <section class="container">
-        <blockquote class="quoteClientes">
-            <p>"No munda atual, a contínua expansão de nossa atividade cumpre um papel essencial na formulação da gestão inovadora da qual fazemos parte."</p>
-            <cite>Barbara Moss</cite>
-        </blockquote>
-    </section>
-
-    <section class="portfolio">
-        <div class="container">
-            <ul class="portfolioLista">
-                <li class="grid-8"><img src="img/Portfolio/Retro Portfolio.svg" alt="Bicicleta Retro"></li>
-                <li class="grid-8"><img src="img/Portfolio/Passeio Portfolio.svg" alt="Bicicleta Passeio"><li>
-                <li class="grid-16"><img src="img/Portfolio/Esporte Portfolio.svg" alt="Bicicleta Esporte"></li>
-            </ul>
+            <h1>Produtos</h1>
+            <p>Conheça mais sobre Bikcraft</p>
         </div>
     </section>
 
-    <section class="quebra">
-        <blockquote class="quoteExterno container">
-            <p>"O verdadeiro segredo da felicidade está em ter um genuíno interesse por todos os detalhes  da vida coridiana."</p>
-            <cite>WILLIAM MORRIS</cite>
-        </blockquote>
+    <section class="orcamento">
+        <div class="container">
+            <form id="formOrcamento" class="grid-8 form">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome">
+                <label for="nome">E-mail</label>
+                <input type="text" id="email">
+                <label for="nome">Telefone</label>
+                <input type="text" id="telefone">
+                <label for="nome">Especificações</label>
+                <textarea id="espec" cols="30" rows="10"></textarea>
+                <button class="btn btnPreto" type="submit">Enviar</button>
+            </form>
+                <div class="grid-8 orcamentoDados">
+                    <h3>Dados</h3>
+                    <span class="numero">+55 21 93223 3232</span>
+                    <span class="dadosEmail">orcamentos@bikcraft.com</span>
+                    <span>Rua Ali Perto - Botafogo</span>
+                    <span>Rio de Janeiro - RJ - Brasil</span>
+           
+                    <div class="grid-8 contatosRedes">
+                        <h3>Redes Sociais</h3>
+                        <ul>
+                            <li><a href="http://facebook.com" target="_blank"><img src="img/Redes Sociais/facebook.svg" alt="Bikcraft Facebook"></a></li>
+                            <li><a href="http://instagram.com" target="_blank"><img src="img/Redes Sociais/instagram-1.svg" alt="Bikcraft Instagram"></a></li>
+                            <li><a href="http://twitter.com" target="_blank"><img src="img/Redes Sociais/twitter-1.svg" alt="Bikcraft Twitter"></a></li>
+                        </ul>
+                    </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container mapa">
+            <img src="img/Portfolio/mapa.svg" alt="Mapa Bikcraft">
+        </div>
     </section>
 
     <footer>
+
         <div class="footer">
+
             <div class="container">
+
                 <div class="grid-8 footerHistoria">
                     <h3>Nossa história</h3>
                     <p>O verdadeiro segredo da felicidade está em ter um genuíno
@@ -88,7 +104,9 @@
                         <li><a href="http://twitter.com" target="_blank"><img src="img/Redes Sociais/twitter-1.svg" alt="Bikcraft Twitter"></a></li>
                     </ul>
                 </div>
+
             </div>
+
         </div>
 
         <div class="copy">
