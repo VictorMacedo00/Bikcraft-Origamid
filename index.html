@@ -11,6 +11,7 @@
     <title>Bikcraft</title>
 </head>
 <body>
+    <script>document.documentElement.classList.add("js");</script>
 
     <header class="header">
         <div class="container">
@@ -31,20 +32,20 @@
 
     <section class="introducao">
         <div class="container">
-            <h1>Bicicletas Feitas a Mão</h1>
+            <h1 data-anime="300">Bicicletas Feitas a Mão</h1>
             <blockquote class="quoteExterno">
-                <p>"Não tenha nada em sua casa que você não considere útil ou acredita ser bonito"</p>
-                <cite>WILLIAM MORRIS</cite>
+                <p data-anime="500">"Não tenha nada em sua casa que você não considere útil ou acredita ser bonito"</p>
+                <cite data-anime="700">WILLIAM MORRIS</cite>
             </blockquote>
-            <a href="produtos.html" class="btn">Orçamento</a>
+            <a href="produtos.html" class="btn" data-anime="900">Orçamento</a>
         </div>
     </section>
 
     <section class="container produtos">
 
-        <h2 class="subtitulo">Produtos</h2>
+        <h2 class="subtitulo" data-anime="1100">Produtos</h2>
 
-        <ul class="produtosLista">
+        <ul class="produtosLista fadeInUp" data-anime="1300">
 
             <li class="grid-1-3">
                 <div class="produtosIcone">
@@ -184,5 +185,7 @@
 
     </footer>
 
+    <script src="js/script.js"></script>
+    
 </body>
 </html>
